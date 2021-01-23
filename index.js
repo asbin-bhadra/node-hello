@@ -10,7 +10,7 @@ const server = http.createServer((req, res) => {
 
 const server2 = http.createServer((req, res) => {
 	res.statusCode = 200;
-	const msg2 = 'Hello again from Knoldus Software LLP by Asbin\n'
+	const msg2 = 'Hello again from Knoldus Software LLP\n'
 	res.end(msg2);
 });
 
