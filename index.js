@@ -4,7 +4,7 @@ const port2 = process.env.PORT2 || 3001;
 
 const server = http.createServer((req, res) => {
   res.statusCode = 200;
-  const msg = 'Hello Asbin test 1!\n'
+  const msg = 'Hello Asbin test 2!\n'
   res.end(msg);
 });
 
