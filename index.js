@@ -4,13 +4,13 @@ const port2 = process.env.PORT2 || 3001;
 
 const server = http.createServer((req, res) => {
   res.statusCode = 200;
-  const msg = 'Hello Asbin test final!\n'
+  const msg = 'Hello Node!\n'
   res.end(msg);
 });
 
 const server2 = http.createServer((req, res) => {
 	res.statusCode = 200;
-	const msg2 = 'Hello again from Sayan\n'
+	const msg2 = 'Hello again from Node!\n'
 	res.end(msg2);
 });
 
